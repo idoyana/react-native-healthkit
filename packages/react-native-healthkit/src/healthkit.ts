@@ -137,6 +137,10 @@ export const isProtectedDataAvailable = UnavailableFnFromModule(
   'isProtectedDataAvailable',
   false,
 )
+export const isProtectedDataAvailableAsync = UnavailableFnFromModule(
+  'isProtectedDataAvailableAsync',
+  Promise.resolve(false),
+)
 export const isObjectTypeAvailable = UnavailableFnFromModule(
   'isObjectTypeAvailable',
   false,

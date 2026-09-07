@@ -463,6 +463,7 @@ export default {
   subscribeToQuantitySamples,
   startWatchApp,
   isProtectedDataAvailable,
+  isProtectedDataAvailableAsync,
   queryStateOfMindSamples,
   queryStateOfMindSamplesWithAnchor,
   saveStateOfMindSample,

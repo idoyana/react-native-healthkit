@@ -634,6 +634,7 @@ const HealthkitModule = {
   subscribeToChanges,
   startWatchApp,
   isProtectedDataAvailable,
+  isProtectedDataAvailableAsync,
   queryStateOfMindSamples,
   queryStateOfMindSamplesWithAnchor,
   saveStateOfMindSample,

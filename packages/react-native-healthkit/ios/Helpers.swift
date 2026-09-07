@@ -8,7 +8,6 @@
 import Foundation
 import HealthKit
 import NitroModules
-import UIKit
 
 func parseUnitStringSafe(_ unitString: String) throws -> HKUnit {
   var err: NSError?
